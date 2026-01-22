@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Ranjithkumar S</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Tilt+Warp&family=Rubik+Glitch&family=Oswald:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Tilt+Warp&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Love+Light&family=Rubik+Glitch&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <style>
+    body {
+      background: radial-gradient(circle at top, #1c1f2a, #0e1017);
+      min-height: 100vh;
+    }
+
+    .con {
+      border-radius: 1.5rem;
+      padding: 1.4rem;
+      background: radial-gradient(circle at top, #141d2f, #280233);
+    }
+
+    .tilt-warp {
+      font-family: "Tilt Warp", sans-serif;
+    }
+
+    .rubik-glitch {
+      font-family: "Rubik Glitch", system-ui;
+      letter-spacing: 4px;
+    }
+
+    .oswald {
+      font-family: "Oswald", sans-serif;
+      font-weight: 500;
+    }
+    .protest-revolution-regular {
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        }
+        
+        .tilt-warp-font {
+        font-family: "Tilt Warp", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+        font-variation-settings:
+            "XROT" 0,
+            "YROT" 0;
+        }
+            .rubik-glitch-regular {
+      font-family: "Rubik Glitch", system-ui;
+      font-weight: 100;
+      font-style: normal;
+      letter-spacing: 5px;
+    }
+
+    .oswald-bold {
+      font-family: "Oswald", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark"
+    style="background: radial-gradient(circle at top, #1c1f2a, #0e1017);">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-3 rubik-glitch ms-4">RANJITHKUMAR S</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto me-4">
+          <li class="nav-item d-flex">
+
+            <a class="nav-link active  oswald-bold fs-5 me-4" href="home_page.html"><i
+                class="fa fa-home fs-4  mt-2 pt-1 me-1 " aria-hidden="true"></i> Home</a>
+          </li>
+          <li class="nav-item d-flex">
+
+            <a class="nav-link  oswald-bold fs-5 me-4" href="about_page.html"><i class="fa fa-user fs-4 mt-2 pt-1 me-2"
+                aria-hidden="true"></i>About</a>
+          </li>
+          <li class="nav-item d-flex">
+
+            <a class="nav-link  oswald-bold fs-5 me-4" href="portfolio_page.html"><i
+                class="fa fa-address-card-o fs-4  mt-2 pt-1 me-1" aria-hidden="true"></i> Portfolio</a>
+          </li>
+          <li class="nav-item me-5 d-flex">
+
+            <a class="nav-link  oswald-bold fs-5 me-5" href="contact_page.html"><i
+                class="fa fa-comment fs-4  mt-2 pt-1 me-1" aria-hidden="true"></i> Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container d-flex justify-content-center align-items-center mt-5">
+    <div class="con p-4" style="width: 550px;">
+      <form>
+        <fieldset>
+          <legend class="text-center fs-2 fw-bold tilt-warp text-warning">
+            Get In Touch
+          </legend>
+
+          <div class="mb-3">
+            <label class="form-label fw-bold text-light">
+              Name <span class="text-danger">*</span>
+            </label>
+            <input type="text" id="name" class="form-control bg-dark" placeholder="Enter your name">
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label fw-bold text-light">
+              Email <span class="text-danger">*</span>
+            </label>
+            <input type="email" id="email" class="form-control bg-dark" placeholder="Enter your email">
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label fw-bold text-light">
+              Message <span class="text-danger">*</span>
+            </label>
+            <textarea id="message" class="form-control bg-dark" rows="4" placeholder="Type your message..."></textarea>
+          </div>
+
+          <div class="text-center">
+            <button type="submit" class="btn btn-light" onclick="get()">
+              Submit
+            </button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    function get() {
+      var name = document.getElementById("name").value;
+      var email = document.getElementById("email").value;
+      var message = document.getElementById("message").value;
+
+      if (name == "" || email == "" || message == "") {
+        alert("please fill");
+      } else {
+        var whatsappNumber = "918608534243";
+        var url = "https://wa.me/" + whatsappNumber + "?text="
+          + "Name: " + encodeURIComponent(name) + "%0A"
+          + "Email: " + encodeURIComponent(email) + "%0A"
+          + "Message: " + encodeURIComponent(message);
+
+        window.open(url, '_blank');
+      }
+
+    }
+  </script>
+
+
+</body>
+
+</html>
